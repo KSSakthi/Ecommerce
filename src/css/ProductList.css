@@ -1,0 +1,39 @@
+.product-list {
+  text-align: center;
+}
+
+h2 {
+  color: rgb(70, 69, 69);
+}
+
+.product-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  background-color: rgb(156, 165, 194);
+}
+
+.product-card .product-info {
+  margin-bottom: 10px;
+}
+
+.add-to-cart-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.add-to-cart-button:hover {
+  background-color: #333;
+}
